@@ -9,11 +9,12 @@ npm install typescript
 ```
 
 ## 명령어 등록
+
 ```json
 {
   "scripts": {
     "tsc": "tsc"
-  },
+  }
 }
 ```
 
@@ -22,3 +23,18 @@ npm install typescript
 ```bash
 npm run tsc ./src/greeter.ts
 ```
+
+## typescript type
+
+- Boolean
+- Number
+- String
+- Object
+- Array
+- Tuple
+- Enum
+- any
+- void
+- null
+- undefined
+- never
