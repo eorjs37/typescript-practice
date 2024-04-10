@@ -4,12 +4,15 @@
   "description": "typescript-practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "test": "jest"
   },
   "author": "CHOI DAE GEON",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
