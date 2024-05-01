@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "CHOI DAE GEON"
-npx eslint --fix
+npm run lint-fix

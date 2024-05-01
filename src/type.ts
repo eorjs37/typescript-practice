@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 enum Color { Red, Green, Blue}
-let c: Color = Color.Blue;
-let colorName: string = Color[2];
+const c: Color = Color.Blue;
+const colorName: string = Color[2];
 
-let u:undefined = undefined;
-let n:null = null;
+const u:undefined = undefined;
+const n:null = null;
 
 declare function create(o:object | null):void;
 create({prop:0});

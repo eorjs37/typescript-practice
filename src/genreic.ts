@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function identify(arg: number): number {
   return arg;
 }
@@ -12,20 +13,21 @@ function loggingIdentity<T>(arg: T[]): T[] {
   return arg;
 }
 
-let output: string = identify2<string>("myString");
+const output: string = identify2<string>("myString");
 console.log(output);
 
 const arr = [1, 2, 3];
 const logging = loggingIdentity<number>(arr);
 console.log(logging.length);
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const myIdentity: <T>(arg: T) => T = identify2;
 
 function logText<T>(text: T): T {
   return text;
 }
 
-let str: <T>(text: T) => T = logText;
+const str: <T>(text: T) => T = logText;
 const result = str("string");
 console.log(result);
 

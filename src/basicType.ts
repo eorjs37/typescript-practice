@@ -1,18 +1,21 @@
-let str: string = "str";
-let num: number = 10;
-let isLoggedIn: boolean = false;
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const str: string = "str";
+const num: number = 10;
+const isLoggedIn: boolean = false;
 
+// eslint-disable-next-line @typescript-eslint/ban-types
 const object: Object = {
   name: "choi",
   age: 31,
 };
 
 //array
-let arr: number[] = [1, 2, 3];
-let arr2: Array<number> = [1, 2, 3];
+const arr: number[] = [1, 2, 3];
+const arr2: Array<number> = [1, 2, 3];
 
 //tuple
-let tuple: [string, number] = ["hi", 1];
+const tuple: [string, number] = ["hi", 1];
 export default {};
 
 //Enum
@@ -23,10 +26,11 @@ enum Avengers {
   Thor = 4,
 }
 
-let hero: Avengers = Avengers.Capt;
+const hero: Avengers = Avengers.Capt;
 
 //any
-let str11: any = "99";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const str11: any = "99";
 
 //void
 function printSomething(): void {

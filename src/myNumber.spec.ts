@@ -1,7 +1,5 @@
 import { MyNumber } from "./myNumber";
 import { test, expect, describe } from "@jest/globals";
-let number = new MyNumber(1);
-const number2 = new MyNumber(2);
 
 describe("MyNumber을 1로 생성하고", () => {
   let number = new MyNumber(1);
