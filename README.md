@@ -22,3 +22,18 @@ npm install typescript
 ```bash
 npm run tsc ./src/greeter.ts
 ```
+
+## husky
+```
+git hooks을 쉡게 공유할 수 있게 도와주는 NodeJs 기반 모듈이며  
+git 이벤트 실행 전 자동적으로 기능을 제공해주는 도구
+```
+
+```bash
+npx husky-init -y && npm install
+```
+
+## pre-coomit
+```
+커밋을 하기전에 실행하는 단계이다
+```
