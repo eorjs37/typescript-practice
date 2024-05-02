@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-enum Color { Red, Green, Blue}
+enum Color { Red, Green, Blue, Yellow}
 const c: Color = Color.Blue;
 const colorName: string = Color[2];
 
