@@ -9,7 +9,7 @@
     "test-watch": "jest --watch",
     "prepare": "husky install",
     "lint": "eslint . --ext .ts",
-    "lint-fix":"eslint . --ext .ts --fix"
+    "lint-fix": "eslint . --ext .ts --fix"
   },
   "author": "CHOI DAE GEON",
   "license": "ISC",
